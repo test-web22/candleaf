@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <title>Candleaf</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <button type="button" class="menu__icon icon-menu">
+          <span></span>
+        </button>
+        <div class="header__logo">
+          <a href="/index.html"><img src="/images/Desktop/nav/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="header__menu menu">
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link menu-item-has-children">Discovery</a>
+                <ul class="submenu">
+                  <li class="menu__item">
+                    <a href="/product.html" class="menu__link">Shop</a>
+                  </li>
+              </li>
+            </ul>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Contact us</a>
+            </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__user">
+          <button>
+            <img src="/images/Desktop/nav/Profile.svg" alt="Profile" />
+          </button>
+          <a href="/cart.html"><img src="/images/Desktop/nav/Cart.svg" alt="Cart" /></a>
+        </div>
+      </div>
+    </header>
+    <div class="page">
+      <section class="main">
+        <div class="main__container">
+          <div class="main__block">
+            <div class="main__plants">🌱</div>
+            <div class="main__tittle">The nature candle</div>
+            <div class="main__text">
+              All handmade with natural soy wax, Candleaf is a companion for
+              all your pleasure moments
+            </div>
+            <a href="#" class="main__button button">Discovery our collection</a>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="products__container">
+          <div class="products__top top-description">
+            <div class="top-description__tittle">Products</div>
+            <div class="top-description__text">Order it for you or for your beloved ones</div>
+          </div>
+          <div class="products__items items-products">
+            <div class="items-products__collumns">
+              <a href="/product.html" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image1.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+              <a href="#" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image2.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+              <a href="#" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image3.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+              <a href="#" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image4.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+              <span id="dots">...</span>
+              <span id="more">
+                <div class="items-products__collumns">
+                  <a href="#" class="items-products__item">
+                    <div class="items-products__img"><img src="/images/Desktop/image4.png" alt="item"></div>
+                    <div class="items-products__description">
+                      <div class="items-products__name">Spiced Mint</div>
+                      <div class="items-products__price">9.99$</div>
+                    </div>
+                  </a>
+                  <a href="#" class="items-products__item">
+                    <div class="items-products__img"><img src="/images/Desktop/image3.png" alt="item"></div>
+                    <div class="items-products__description">
+                      <div class="items-products__name">Spiced Mint</div>
+                      <div class="items-products__price">9.99$</div>
+                    </div>
+                  </a>
+                  <a href="#" class="items-products__item">
+                    <div class="items-products__img"><img src="/images/Desktop/image2.png" alt="item"></div>
+                    <div class="items-products__description">
+                      <div class="items-products__name">Spiced Mint</div>
+                      <div class="items-products__price">9.99$</div>
+                    </div>
+                  </a>
+                  <a href="#" class="items-products__item">
+                    <div class="items-products__img"><img src="/images/Desktop/image1.png" alt="item"></div>
+                    <div class="items-products__description">
+                      <div class="items-products__name">Spiced Mint</div>
+                      <div class="items-products__price">9.99$</div>
+                    </div>
+                  </a>
+                </div>
+              </span>
+            </div>
+          </div>
+          <button onclick="myreadMoreFunction()" id="myReadBtn" class="items-products__button button">See more</button>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__container">
+          <div class="about__block">
+            <div class="about__tittle">Clean and<br> fragrant soy wax
+            </div>
+            <div class="about__text">Made for your home and for your wellness</div>
+            <ul class="about__list">
+              <li>Eco-sustainable:All recyclable materials, 0% CO2 emissions</li>
+              <li>Hyphoallergenic: 100% natural, human friendly ingredients</li>
+              <li>Handmade: All candles are craftly made with love.</li>
+              <li>Long burning: No more waste. Created for last long.</li>
+            </ul>
+            <div class="about__button button">Learn more</div>
+          </div>
+          <div class="about__decor">
+            <img src="/images/Desktop/mockups.png" alt="candleaf">
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="testimonials__container">
+          <div class="testimonials__top top-description">
+            <div class="top-description__tittle">Testimonials</div>
+            <div class="top-description__text">Some quotes from our happy customers</div>
+          </div>
+          <div class="testimonials__items">
+            <div class="testimonials__item">
+              <div class="testimonials__img">
+                <img src="/images/Desktop/bg.png" alt="portrait">
+              </div>
+              <div class="testimonials__raiting">
+                <img src="/images/Desktop/Stars.png" alt="stars">
+              </div>
+              <div class="testimonials__quote">“I love it! No more air fresheners”</div>
+              <div class="testimonials__customer">Luisa</div>
+            </div>
+            <div class="testimonials__item">
+              <div class="testimonials__img">
+                <img src="/images/Desktop/bg1.png" alt="portrait">
+              </div>
+              <div class="testimonials__raiting">
+                <img src="/images/Desktop/Stars.png" alt="stars">
+              </div>
+              <div class="testimonials__quote">“Raccomended for everyone”</div>
+              <div class="testimonials__customer">Edoardo</div>
+            </div>
+            <div class="testimonials__item">
+              <div class="testimonials__img">
+                <img src="/images/Desktop/bg2.png" alt="portrait">
+              </div>
+              <div class="testimonials__raiting">
+                <img src="/images/Desktop/Stars.png" alt="stars">
+              </div>
+              <div class="testimonials__quote">“Looks very natural, the smell is awesome”</div>
+              <div class="testimonials__customer">Marta</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular">
+        <div class="popular__container">
+          <div class="popular__top top-description">
+            <div class="top-description__tittle">Popular</div>
+            <div class="top-description__text">Our top selling product that you may like</div>
+          </div>
+          <div class="popular__items items-products">
+            <div class="items-products__collumns">
+              <a href="#" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image1.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+              <a href="#" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image2.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+              <a href="#" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image3.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+              <a href="#" class="items-products__item">
+                <div class="items-products__img"><img src="/images/Desktop/image4.png" alt="item"></div>
+                <div class="items-products__description">
+                  <div class="items-products__name">Spiced Mint</div>
+                  <div class="items-products__price">9.99$</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer__white-line"></div>
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img src="/images/Desktop/footer/logo-web/footer.png" alt="logo">
+          <div class="footer__slogan">Your natural candle made for your home and for your wellness.</div>
+        </div>
+        <div class="footer__nav nav-footer">
+          <div class="nav-footer__body">
+            <div class="nav-footer__title">Discovery</div>
+            <ul class="nav-footer__list">
+              <li>
+                <a href="#">New season</a>
+              </li>
+              <li>
+                <a href="#">Most searched</a>
+              </li>
+              <li>
+                <a href="#">Most selled</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-footer__body">
+            <div class="nav-footer__title">About</div>
+            <ul class="nav-footer__list">
+              <li>
+                <a href="#">Help</a>
+              </li>
+              <li>
+                <a href="#">Shipping</a>
+              </li>
+              <li>
+                <a href="#">Affiliate</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-footer__body">
+            <div class="nav-footer__title">Info</div>
+            <ul class="nav-footer__list">
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policies</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="/js/main-style.js"></script>
+
+</html>
