@@ -2,8 +2,8 @@
 //ОСНОВНІ КОЛЬОРИ
 $colorBlack: #272727;
 $colorMainText: #1d252c;
-$colorSecondText: #5E6E89;
-$colorWhiteText: #E1E1E1;
+$colorSecondText: #5e6e89;
+$colorWhiteText: #e1e1e1;
 $colorGreen: #56b280;
 
 html,
@@ -401,7 +401,7 @@ body.menu-open {
   &__img {
     max-width: inherit;
     max-height: 154px;
-    background-color: #F7F8FA;
+    background-color: #f7f8fa;
   }
 
   &__description {
@@ -435,7 +435,7 @@ body.menu-open {
   margin: -1px;
 }
 
-@media (max-width:526.98px) {
+@media (max-width: 526.98px) {
   .items-products {
     &__item {
       min-height: 147px;
@@ -461,7 +461,6 @@ body.menu-open {
     &__name {
       font-size: 16px;
       line-height: 112%;
-
     }
 
     &__price {
@@ -482,7 +481,7 @@ body.menu-open {
 
 //============ABOUT============================================================================================================================================
 .about {
-  background-color: #F7F8FA;
+  background-color: #f7f8fa;
   padding-top: 133px;
   padding-bottom: 234px;
 
@@ -520,7 +519,7 @@ body.menu-open {
     }
 
     li::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 7px;
       left: 0;
@@ -548,7 +547,7 @@ body.menu-open {
   }
 }
 
-@media (max-width:767.98px) {
+@media (max-width: 767.98px) {
   .about {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -592,7 +591,6 @@ body.menu-open {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 
   &__img {
@@ -648,7 +646,6 @@ body.menu-open {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-
   }
 
   &__white-line {
@@ -665,7 +662,7 @@ body.menu-open {
     font-size: 16px;
     line-height: 143%;
     letter-spacing: -0.5px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &__nav {}
@@ -728,18 +725,19 @@ br {
 }
 
 .custom-checkbox + label::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1em;
   height: 1em;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 3px solid #DBDBDB;
+  border: 3px solid #dbdbdb;
   border-radius: 50%;
   margin-right: 1.6em;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%;
+  cursor: pointer;
 }
 
 .custom-checkbox:checked + label::before {
@@ -752,13 +750,12 @@ br {
   line-height: 145%;
   letter-spacing: -0.9px;
   text-decoration-line: underline;
-  color: #56B280;
+  color: #56b280;
 
   &--mini {
     font-size: 14px;
     line-height: 114%;
     /* 16px/14 */
-
   }
 }
 
@@ -767,7 +764,7 @@ br {
 .product {
   padding-top: 50px;
   padding-bottom: 100px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 
   &__container {
     display: flex;
@@ -783,7 +780,7 @@ br {
   &__img {
     max-height: 433px;
     max-width: 540px;
-    background-color: #F7F8FA;
+    background-color: #f7f8fa;
 
     & img {
       max-width: 100%;
@@ -853,7 +850,7 @@ br {
       "a b"
       "c c";
     align-items: center;
-    border: 1px solid #E6E6E6;
+    border: 1px solid #e6e6e6;
     border-radius: 7px;
     padding: 10px;
   }
@@ -868,7 +865,7 @@ br {
 
   &__delivery-sub {
     grid-area: b;
-    border: 1px solid #E7E7E7;
+    border: 1px solid #e7e7e7;
     border-radius: 3px;
     padding-left: 5px;
   }
@@ -899,7 +896,7 @@ br {
   &__info {
     grid-area: info;
     align-self: end;
-    border: 1px solid #E6E6E6;
+    border: 1px solid #e6e6e6;
     border-radius: 7px;
     padding: 10px;
 
@@ -907,11 +904,11 @@ br {
       font-weight: 400;
       font-size: 1em;
       line-height: 162%;
-      color: #1D252C;
+      color: #1d252c;
     }
 
     & p span {
-      color: #849A8E;
+      color: #849a8e;
     }
   }
 }
@@ -926,11 +923,9 @@ br {
       margin: 0 auto;
     }
   }
-
-
 }
 
-@media (max-width:479.98px) {
+@media (max-width: 479.98px) {
   .product-form {
     grid-template-columns: 1fr 90px;
     grid-template-rows: 38px 38px 120px 45px 200px;
@@ -959,8 +954,6 @@ br {
 }
 
 .cart {
-
-
   &__container {
     display: flex;
     flex-direction: column;
@@ -1019,7 +1012,6 @@ br {
   flex-direction: column;
 }
 
-
 .product-cart {
   min-width: 100%;
   max-height: 100%;
@@ -1041,8 +1033,7 @@ br {
     margin-right: 20px;
     max-width: 100%;
     max-height: 100%;
-    background-color: #F7F8FA;
-
+    background-color: #f7f8fa;
 
     & img {
       max-width: 100%;
@@ -1061,7 +1052,6 @@ br {
     justify-self: start;
     max-height: 20px;
     background-color: inherit;
-
   }
 
   &__price {
@@ -1097,7 +1087,6 @@ br {
 }
 
 @media (max-width: 767.98px) {
-
   .cart {
     &__link {
       margin: 0;
@@ -1209,4 +1198,214 @@ br {
   border: none;
   width: 24px;
   text-align: center;
+}
+
+//================SHOP========================================================================================================================================
+//================SHOP========================================================================================================================================
+.shop {
+  &__container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  &__top {
+    margin-bottom: 50px;
+  }
+
+  &__layout {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+}
+
+.top {
+  &__tittle {
+    font-size: 40px;
+    line-height: 145%;
+    text-align: center;
+    letter-spacing: -0.9px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: $colorSecondText;
+  }
+}
+
+//=========================DETAILS===============================================================================================================================
+//=========================DETAILS===============================================================================================================================
+.page {
+
+  &__details {}
+}
+
+.details {
+
+  &__container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__form {}
+}
+
+.form-details {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, minmax(150px, 250px));
+  grid-template-rows: repeat(10, 40px);
+  grid-template-areas:
+    "contact login"
+    "inputPhoneEmail inputPhoneEmail"
+    "newsletter newsletter"
+    "shipping 0"
+    "userName secondName"
+    "address address"
+    "city postalCode"
+    "coutry coutry"
+    "save save"
+    "backToCart button";
+  column-gap: 13px;
+  row-gap: 23px;
+
+  &__login {
+    grid-area: login;
+    justify-self: end;
+    font-size: 14px;
+    line-height: 185%;
+  }
+
+  &__item {
+    padding: 15px 25px;
+    border: 0.5px solid #898989;
+    display: flex;
+    cursor: pointer;
+  }
+
+  & input {
+    min-width: 100%;
+    color: $colorBlack;
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 185%;
+      color: $colorSecondText;
+    }
+  }
+
+  &__label {
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.9px;
+  }
+
+  &__radio {}
+
+  &__link {}
+
+  &__button {
+    grid-area: button;
+  }
+}
+
+.form-details__label {
+  &--contact {
+    grid-area: contact;
+  }
+
+  &--shipping {
+    grid-area: shipping;
+  }
+}
+
+#inputPhoneEmail {
+  grid-area: inputPhoneEmail;
+}
+
+#detailsNewsletter {
+  grid-area: newsletter;
+}
+
+#detailsName {
+  grid-area: userName;
+}
+
+#detailsSecondName {
+  grid-area: secondName;
+}
+
+#detailsAddress {
+  grid-area: address;
+}
+
+#detailsCity {
+  grid-area: city;
+}
+
+#detailsPostalCode {
+  grid-area: postalCode;
+}
+
+#detailsCountry {
+  grid-area: coutry;
+  position: relative;
+
+  & label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 3px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    color: $colorSecondText;
+  }
+}
+
+#detailsSave {
+  grid-area: save;
+}
+
+#backToCart {
+  grid-area: backToCart;
+}
+
+@media (max-width: 479.98px) {
+  .form-details {
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(80px, 130px) 220px;
+    grid-template-rows: repeat(13, 40px);
+    grid-template-areas:
+      "contact login"
+      "inputPhoneEmail inputPhoneEmail"
+      "newsletter newsletter"
+      "shipping 0"
+      "userName userName"
+      "secondName secondName"
+      "address address"
+      "city city"
+      "postalCode postalCode"
+      "coutry coutry"
+      "save save"
+      "button button"
+      "backToCart backToCart ";
+    column-gap: 13px;
+    row-gap: 23px;
+
+    &__link {
+      text-align: center;
+    }
+  }
 }
