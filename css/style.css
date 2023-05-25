@@ -234,9 +234,9 @@ body.menu-open {
     z-index: 5;
     cursor: pointer;
   }
-  .icon-menu span,
-  .icon-menu::before,
-  .icon-menu::after {
+.icon-menu span, 
+.icon-menu::before, 
+.icon-menu::after {
     content: "";
     left: 0;
     position: absolute;
@@ -679,8 +679,8 @@ br {
   display: inline-flex;
   align-items: center;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 .custom-checkbox + label::before {
@@ -1011,8 +1011,8 @@ br {
 }
 .number {
   -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   position: relative;
   text-align: left;
   padding: 0;
@@ -1111,7 +1111,7 @@ br {
   grid-template-rows: repeat(10, 40px);
   grid-template-areas: "contact login" "inputPhoneEmail inputPhoneEmail" "newsletter newsletter" "shipping 0" "userName secondName" "address address" "city postalCode" "coutry coutry" "save save" "backToCart button";
   -moz-column-gap: 13px;
-  column-gap: 13px;
+       column-gap: 13px;
   row-gap: 23px;
 }
 .form-details__login {
@@ -1218,7 +1218,7 @@ br {
     grid-template-rows: repeat(13, 40px);
     grid-template-areas: "contact login" "inputPhoneEmail inputPhoneEmail" "newsletter newsletter" "shipping 0" "userName userName" "secondName secondName" "address address" "city city" "postalCode postalCode" "coutry coutry" "save save" "button button" "backToCart backToCart ";
     -moz-column-gap: 13px;
-    column-gap: 13px;
+         column-gap: 13px;
     row-gap: 23px;
   }
   .form-details__link {
